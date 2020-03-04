@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     margin-bottom: 100px;
@@ -20,6 +21,10 @@ height: 45px;
     padding: 20px 40px;
 }
 
+.carousel-indicators .active {
+   
+    background-color: orange;
+}
 .sel1, .sel2, .sel3{
     padding: 10px 30px;
     border-radius: 10px;
@@ -30,9 +35,29 @@ height: 45px;
     border: none;
     border-radius: 10px;
     box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
 }
 .card-footer{
     background-color: white;
     border-top: none;
 }
 
+.card-des{
+    color: orange;
+}
+
+.categories h3{
+text-align: center;
+text-decoration: underline;
+text-decoration-color: orange;
+line-height: 100px;
+
+}
+
+.categories h6{
+    text-align: center;
+}
+
+p{
+    color :darkgray;
+}
